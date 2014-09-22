@@ -1,4 +1,4 @@
-Android Donut Views
+Android Donut Views [![Build Status](https://travis-ci.org/android10/Android-DonutViews.svg)](https://travis-ci.org/android10/Android-DonutViews)
 =========================
 
 Work in progress
