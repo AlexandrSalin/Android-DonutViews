@@ -20,23 +20,30 @@
     <!-- TODO: move this to a style and dimen and color resources file -->
     <com.fernandocejas.android10.donut.component.DonutProgressView
         android:id="@+id/v_donut_progress_one"
+        android:src="@drawable/ic_launcher"
         android:layout_width="160dp"
         android:layout_height="160dp"
+        android:scaleType="centerInside"
         DonutProgressView:rimColor="#44000000"
         DonutProgressView:barColor="#339BB9"
         DonutProgressView:barWidth="20dp"
         DonutProgressView:rimWidth="20dp"
         DonutProgressView:delayMillis="1000"
+        DonutProgressView:contourColor="@android:color/transparent"
         />
+
     <com.fernandocejas.android10.donut.component.DonutProgressView
         android:id="@+id/v_donut_progress_two"
+        android:src="@drawable/ic_launcher"
         android:layout_width="160dp"
         android:layout_height="160dp"
+        android:scaleType="centerInside"
         DonutProgressView:rimColor="#44000000"
         DonutProgressView:barColor="#339BB9"
         DonutProgressView:barWidth="20dp"
         DonutProgressView:rimWidth="20dp"
         DonutProgressView:delayMillis="1000"
+        DonutProgressView:contourColor="@android:color/transparent"
         />
   </LinearLayout>
 

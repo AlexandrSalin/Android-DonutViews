@@ -44,13 +44,13 @@ public class DonutProgressSampleActivity extends Activity {
           //donutProgressViewOne.incrementProgress();
           //donutProgressViewTwo.incrementProgress();
           try {
-            Thread.sleep(4);
+            Thread.sleep(3);
           } catch (InterruptedException e) {
             e.printStackTrace();
           }
         }
-        //donutProgressViewOne.setProgress(MAX_PROGRESS_ANIMATION);
-        //donutProgressViewTwo.setProgress(MAX_PROGRESS_ANIMATION);
+        donutProgressViewOne.setProgress(MAX_PROGRESS_ANIMATION);
+        donutProgressViewTwo.setProgress(MAX_PROGRESS_ANIMATION);
       }
     };
     Thread thread = new Thread(runnable);
